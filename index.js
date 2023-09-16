@@ -22,11 +22,11 @@ function calculate(firstNum, operator, secondNum) {
         case '+':
             return firstNum + secondNum;
         case '-':
-            return firstNum + secondNum;
+            return firstNum - secondNum;
         case '*':
-            return firstNum + secondNum;
+            return firstNum * secondNum;
         case '/':
-            return firstNum + secondNum;
+            return firstNum / secondNum;
     }
 }
 function isOperator(operator) {

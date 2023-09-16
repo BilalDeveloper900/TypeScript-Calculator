@@ -29,11 +29,11 @@ function calculate(firstNum: number, operator: operator, secondNum: number) {
         case '+':
             return firstNum + secondNum;
         case '-':
-            return firstNum + secondNum;
+            return firstNum - secondNum;
         case '*':
-            return firstNum + secondNum;
+            return firstNum * secondNum;
         case '/':
-            return firstNum + secondNum;
+            return firstNum / secondNum;
     }
 }
 
